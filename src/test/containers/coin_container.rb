@@ -73,7 +73,7 @@ class CoinContainer
       bash_cmd += "echo Environment:; env; "
     end
 
-    bash_cmd += "./peercoind " + cmd_args.join(" ")
+    bash_cmd += "./schillingcoind " + cmd_args.join(" ")
 
     if options[:remove_addr_after_shutdown]
       bash_cmd += "; rm -f /root/.peercoin/testnet/peers.dat"

@@ -107,12 +107,12 @@ Take the following steps to build (no UPnP support):
 	cd ${PEERCOIN_DIR}
 	./autogen.sh
 	./configure --without-miniupnpc CXXFLAGS="-i/usr/include/db4.8"
-	strip src/peercoind
+	strip src/schillingcoind
 
 
 Notes
 -----
-The release is built with GCC and then "strip peercoind" to strip the debug
+The release is built with GCC and then "strip schillingcoind" to strip the debug
 symbols, which reduces the executable size by about 90%.
 
 

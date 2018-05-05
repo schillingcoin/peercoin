@@ -21,9 +21,9 @@ Setup
 After completing windows setup then run peercoin-qt.
 Alternatively you can run windows command line (cmd) in peercoin program dir.
   cd daemon
-  peercoind
+  schillingcoind
 You would need to create a configuration file peercoin.conf in the default
-wallet directory. Grant access to peercoind/peercoin-qt in anti-virus and firewall
+wallet directory. Grant access to schillingcoind/peercoin-qt in anti-virus and firewall
 applications if necessary.
 
 The software automatically finds other nodes to connect to.  You can
@@ -37,9 +37,9 @@ Upgrade
 -------
 All your existing coins/transactions should be intact with the upgrade.
 To upgrade from 0.5, first backup wallet in qt menu or by command line
-peercoind backupwallet <destination_backup_file>
-Then shutdown peercoind by
-peercoind stop
+schillingcoind backupwallet <destination_backup_file>
+Then shutdown schillingcoind by
+schillingcoind stop
 Uninstall v0.5 client, download and install v0.6 client.
 Remove all files and subdirectory in your wallet directory EXCEPT FOR
 wallet.dat (wallet file) and peercoin.conf (configuration file).

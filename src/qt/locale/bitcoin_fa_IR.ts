@@ -2201,7 +2201,7 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or peercoind</source>
+        <source>Send command to -server or schillingcoind</source>
         <translation>ارسال دستور به سرور یا peercoined</translation>
     </message>
     <message>
@@ -2226,8 +2226,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: peercoind.pid)</source>
-        <translation>فایل pid  را مشخص کنید (پیش فرض: peercoind.pid)</translation>
+        <source>Specify pid file (default: schillingcoind.pid)</source>
+        <translation>فایل pid  را مشخص کنید (پیش فرض: schillingcoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>

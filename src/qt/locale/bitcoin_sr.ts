@@ -2198,7 +2198,7 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or peercoind</source>
+        <source>Send command to -server or schillingcoind</source>
         <translation>Pošalji naredbu na -server ili peercoinid
 </translation>
     </message>
@@ -2224,8 +2224,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: peercoind.pid)</source>
-        <translation>Konkretizuj pid fajl (podrazumevani: peercoind.pid)</translation>
+        <source>Specify pid file (default: schillingcoind.pid)</source>
+        <translation>Konkretizuj pid fajl (podrazumevani: schillingcoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>

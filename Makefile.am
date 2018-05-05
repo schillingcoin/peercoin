@@ -4,7 +4,7 @@ SUBDIRS = src
 
 GZIP_ENV="-9n"
 
-BITCOIND_BIN=$(top_builddir)/src/peercoind$(EXEEXT)
+BITCOIND_BIN=$(top_builddir)/src/schillingcoind$(EXEEXT)
 BITCOIN_QT_BIN=$(top_builddir)/src/qt/peercoin-qt$(EXEEXT)
 BITCOIN_WIN_INSTALLER=$(PACKAGE)-$(PACKAGE_VERSION)-win32-setup$(EXEEXT)
 
@@ -53,7 +53,7 @@ $(BITCOIN_WIN_INSTALLER): all-recursive
 	  echo error: could not build $@
 
 $(BITCOIND_BIN):
-	make -C $(top_srcdir)/src peercoind$(EXEEXT)
+	make -C $(top_srcdir)/src schillingcoind$(EXEEXT)
 
 $(BITCOIN_QT_BIN):
 	make -C $(top_srcdir)/src/qt peercoin-qt$(EXEEXT)

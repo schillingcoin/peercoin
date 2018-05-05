@@ -2202,8 +2202,8 @@ Adrese: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or peercoind</source>
-        <translation>Nosūtīt komantu uz -server vai peercoind</translation>
+        <source>Send command to -server or schillingcoind</source>
+        <translation>Nosūtīt komantu uz -server vai schillingcoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2227,8 +2227,8 @@ Adrese: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: peercoind.pid)</source>
-        <translation>Norādiet pid failu (pēc noklusēšanas: peercoind.pid)</translation>
+        <source>Specify pid file (default: schillingcoind.pid)</source>
+        <translation>Norādiet pid failu (pēc noklusēšanas: schillingcoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>

@@ -64,10 +64,10 @@ script: |
   export LD_PRELOAD=/usr/lib/faketime/libfaketime.so.1
   export FAKETIME=$REFERENCE_DATETIME
   export TZ=UTC
-  make -f makefile.linux-mingw $MAKEOPTS DEPSDIR=$HOME/build peercoind.exe USE_UPNP=1 DEBUGFLAGS="-frandom-seed=peercoin"
-  i586-mingw32msvc-strip peercoind.exe
+  make -f makefile.linux-mingw $MAKEOPTS DEPSDIR=$HOME/build schillingcoind.exe USE_UPNP=1 DEBUGFLAGS="-frandom-seed=peercoin"
+  i586-mingw32msvc-strip schillingcoind.exe
   mkdir $OUTDIR/daemon
-  cp peercoind.exe $OUTDIR/daemon
+  cp schillingcoind.exe $OUTDIR/daemon
   cd ..
   mkdir nsis
   git archive HEAD | tar -x -C nsis

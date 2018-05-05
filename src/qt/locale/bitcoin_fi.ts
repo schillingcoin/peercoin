@@ -2207,8 +2207,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or peercoind</source>
-        <translation>Lähetä käsky palvelimelle tai peercoind:lle</translation>
+        <source>Send command to -server or schillingcoind</source>
+        <translation>Lähetä käsky palvelimelle tai schillingcoind:lle</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2232,8 +2232,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: peercoind.pid)</source>
-        <translation>Määritä pid-tiedosto (oletus: peercoind.pid)</translation>
+        <source>Specify pid file (default: schillingcoind.pid)</source>
+        <translation>Määritä pid-tiedosto (oletus: schillingcoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>

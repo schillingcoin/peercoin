@@ -2207,8 +2207,8 @@ Adresa: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or peercoind</source>
-        <translation>Poslat příkaz pro -server nebo peercoind</translation>
+        <source>Send command to -server or schillingcoind</source>
+        <translation>Poslat příkaz pro -server nebo schillingcoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2232,8 +2232,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: peercoind.pid)</source>
-        <translation>PID soubor (výchozí: peercoind.pid)</translation>
+        <source>Specify pid file (default: schillingcoind.pid)</source>
+        <translation>PID soubor (výchozí: schillingcoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>

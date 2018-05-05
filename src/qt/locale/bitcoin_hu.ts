@@ -2208,8 +2208,8 @@ Cím: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or peercoind</source>
-        <translation>Parancs küldése a -serverhez vagy a peercoindhez
+        <source>Send command to -server or schillingcoind</source>
+        <translation>Parancs küldése a -serverhez vagy a schillingcoindhez
 </translation>
     </message>
     <message>
@@ -2238,8 +2238,8 @@ Cím: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: peercoind.pid)</source>
-        <translation>pid-fájl (alapértelmezett: peercoind.pid)
+        <source>Specify pid file (default: schillingcoind.pid)</source>
+        <translation>pid-fájl (alapértelmezett: schillingcoind.pid)
 </translation>
     </message>
     <message>

@@ -37,7 +37,7 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += peercoind
+  bin_PROGRAMS += schillingcoind
 endif
 
 if BUILD_BITCOIN_CLI
@@ -157,8 +157,8 @@ libpeercoin_cli_a_SOURCES = \
 nodist_libpeercoin_common_a_SOURCES = $(top_srcdir)/src/obj/build.h
 #
 
-# peercoind binary #
-peercoind_LDADD = \
+# schillingcoind binary #
+schillingcoind_LDADD = \
   libpeercoin_server.a \
   libpeercoin_cli.a \
   libpeercoin_common.a \
@@ -166,17 +166,17 @@ peercoind_LDADD = \
   $(LIBMEMENV) \
   $(BOOST_LIBS)
 if ENABLE_WALLET
-peercoind_LDADD += libpeercoin_wallet.a
+schillingcoind_LDADD += libpeercoin_wallet.a
 endif
-peercoind_SOURCES = bitcoind.cpp
-peercoind_LDFLAGS = $(AM_LDFLAGS)
+schillingcoind_SOURCES = bitcoind.cpp
+schillingcoind_LDFLAGS = $(AM_LDFLAGS)
 
 if TARGET_WINDOWS
-peercoind_SOURCES += bitcoind-res.rc
+schillingcoind_SOURCES += bitcoind-res.rc
 endif
 
 AM_CPPFLAGS += $(BDB_CPPFLAGS)
-peercoind_LDADD += $(BDB_LIBS)
+schillingcoind_LDADD += $(BDB_LIBS)
 
 # bitcoin-cli binary #
 peercoin_cli_LDADD = libpeercoin_cli.a libpeercoin_common.a $(BOOST_LIBS)

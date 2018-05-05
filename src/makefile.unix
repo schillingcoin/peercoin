@@ -153,7 +153,7 @@ OBJS= \
     obj/txdb.o
 
 
-all: peercoind
+all: schillingcoind
 
 test check: test_peercoin FORCE
 	./test_peercoin
@@ -185,7 +185,7 @@ obj/%.o: %.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-peercoind: $(OBJS:obj/%=obj/%)
+schillingcoind: $(OBJS:obj/%=obj/%)
 	$(LINK) $(xCXXFLAGS) -o $@ $^ $(xLDFLAGS) $(LIBS)
 	@cp $@ ppcoind
 
@@ -202,7 +202,7 @@ test_peercoin: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
 	$(LINK) $(xCXXFLAGS) -o $@ $(LIBPATHS) $^ $(TESTLIBS) $(xLDFLAGS) $(LIBS)
 
 clean:
-	-rm -f peercoind test_peercoin
+	-rm -f schillingcoind test_peercoin
 	-rm -f ppcoind
 	-rm -f obj/*.o
 	-rm -f obj-test/*.o

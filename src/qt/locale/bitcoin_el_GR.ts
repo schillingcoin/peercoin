@@ -2208,8 +2208,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or peercoind</source>
-        <translation>Αποστολή εντολής στον εξυπηρετητή ή στο peercoind</translation>
+        <source>Send command to -server or schillingcoind</source>
+        <translation>Αποστολή εντολής στον εξυπηρετητή ή στο schillingcoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2233,8 +2233,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: peercoind.pid)</source>
-        <translation>Ορίστε αρχείο pid (προεπιλογή: peercoind.pid)</translation>
+        <source>Specify pid file (default: schillingcoind.pid)</source>
+        <translation>Ορίστε αρχείο pid (προεπιλογή: schillingcoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>

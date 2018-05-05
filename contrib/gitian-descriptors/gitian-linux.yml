@@ -53,8 +53,8 @@ script: |
   install -s peercoin-qt $BINDIR
 
   cd src
-  make -f makefile.unix STATIC=1 $MAKEOPTS peercoind USE_UPNP=0 BDB_INCLUDE_PATH=$STAGING/include BDB_LIB_PATH=$STAGING/lib BOOST_LIB_SUFFIX=-mt DEBUGFLAGS=
-  install -s peercoind $BINDIR
+  make -f makefile.unix STATIC=1 $MAKEOPTS schillingcoind USE_UPNP=0 BDB_INCLUDE_PATH=$STAGING/include BDB_LIB_PATH=$STAGING/lib BOOST_LIB_SUFFIX=-mt DEBUGFLAGS=
+  install -s schillingcoind $BINDIR
 
   # sort distribution tar file and normalize user/group/mtime information for deterministic output
   mkdir -p $OUTDIR/src

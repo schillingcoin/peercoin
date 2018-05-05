@@ -3426,8 +3426,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or peercoind</source>
-        <translation type="unfinished">Send command to -server or peercoind</translation>
+        <source>Send command to -server or schillingcoind</source>
+        <translation type="unfinished">Send command to -server or schillingcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3506,8 +3506,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: peercoind.pid)</source>
-        <translation type="unfinished">Specify pid file (default: peercoind.pid)</translation>
+        <source>Specify pid file (default: schillingcoind.pid)</source>
+        <translation type="unfinished">Specify pid file (default: schillingcoind.pid)</translation>
     </message>
     <message>
         <location line="+1"/>

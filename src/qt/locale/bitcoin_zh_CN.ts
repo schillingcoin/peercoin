@@ -2208,8 +2208,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or peercoind</source>
-        <translation>发送命令到服务器或者 peercoind
+        <source>Send command to -server or schillingcoind</source>
+        <translation>发送命令到服务器或者 schillingcoind
 </translation>
     </message>
     <message>
@@ -2238,8 +2238,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: peercoind.pid)</source>
-        <translation>指定 pid 文件 (默认为 peercoind.pid)
+        <source>Specify pid file (default: schillingcoind.pid)</source>
+        <translation>指定 pid 文件 (默认为 schillingcoind.pid)
 </translation>
     </message>
     <message>

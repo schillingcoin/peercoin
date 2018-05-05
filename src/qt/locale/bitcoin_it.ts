@@ -2209,8 +2209,8 @@ Indirizzo: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or peercoind</source>
-        <translation>Manda il comando a -server o peercoind
+        <source>Send command to -server or schillingcoind</source>
+        <translation>Manda il comando a -server o schillingcoind
 </translation>
     </message>
     <message>
@@ -2239,8 +2239,8 @@ Indirizzo: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: peercoind.pid)</source>
-        <translation>Specifica il file pid (default: peercoind.pid)
+        <source>Specify pid file (default: schillingcoind.pid)</source>
+        <translation>Specifica il file pid (default: schillingcoind.pid)
 </translation>
     </message>
     <message>

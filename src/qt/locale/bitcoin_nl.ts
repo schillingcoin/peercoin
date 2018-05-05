@@ -2207,8 +2207,8 @@ Adres: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or peercoind</source>
-        <translation>Stuur commando naar -server of peercoind</translation>
+        <source>Send command to -server or schillingcoind</source>
+        <translation>Stuur commando naar -server of schillingcoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2233,8 +2233,8 @@ Adres: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: peercoind.pid)</source>
-        <translation>Specificeer pid-bestand (standaard: peercoind.pid)
+        <source>Specify pid file (default: schillingcoind.pid)</source>
+        <translation>Specificeer pid-bestand (standaard: schillingcoind.pid)
 </translation>
     </message>
     <message>

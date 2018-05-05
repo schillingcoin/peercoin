@@ -2207,7 +2207,7 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or peercoind</source>
+        <source>Send command to -server or schillingcoind</source>
         <translation>Відправити команду серверу -server чи демону</translation>
     </message>
     <message>
@@ -2232,8 +2232,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: peercoind.pid)</source>
-        <translation>Вкажіть pid-файл (типово: peercoind.pid)</translation>
+        <source>Specify pid file (default: schillingcoind.pid)</source>
+        <translation>Вкажіть pid-файл (типово: schillingcoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>

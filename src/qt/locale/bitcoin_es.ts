@@ -2210,8 +2210,8 @@ Dirección: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or peercoind</source>
-        <translation>Envíar comando a -server o peercoind</translation>
+        <source>Send command to -server or schillingcoind</source>
+        <translation>Envíar comando a -server o schillingcoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2239,7 +2239,7 @@ Dirección: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: peercoind.pid)</source>
+        <source>Specify pid file (default: schillingcoind.pid)</source>
         <translation>Especificar archivo pid (predeterminado: peercoin.pid)
 </translation>
     </message>

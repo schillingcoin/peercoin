@@ -68,7 +68,7 @@ script: |
   #
   #cd src
   #make -f makefile.linux-mingw HOST="$HOST" DEPSDIR="$DEPSDIR" CURDIR="$BUILDDIR/peercoin/src" STATIC=1 $MAKEOPTS USE_UPNP=1 BOOST_LIB_SUFFIX="-mt-s" DEBUGFLAGS= 
-  #cp peercoind.exe $BINDIR/
+  #cp schillingcoind.exe $BINDIR/
   #cd ..
   #
 

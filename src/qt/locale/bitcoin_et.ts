@@ -2206,8 +2206,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or peercoind</source>
-        <translation>Saada käsklus -serverile või peercoindile</translation>
+        <source>Send command to -server or schillingcoind</source>
+        <translation>Saada käsklus -serverile või schillingcoindile</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2231,7 +2231,7 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: peercoind.pid)</source>
+        <source>Specify pid file (default: schillingcoind.pid)</source>
         <translation>Täpsusta PID fail (vaikimisi: peercoin.pid)</translation>
     </message>
     <message>

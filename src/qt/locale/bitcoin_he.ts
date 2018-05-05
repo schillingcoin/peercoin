@@ -2206,8 +2206,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or peercoind</source>
-        <translation>שלח פקודה ל -server או peercoind</translation>
+        <source>Send command to -server or schillingcoind</source>
+        <translation>שלח פקודה ל -server או schillingcoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2231,8 +2231,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: peercoind.pid)</source>
-        <translation>ציין קובץ pid (ברירת מחדל: peercoind.pid)</translation>
+        <source>Specify pid file (default: schillingcoind.pid)</source>
+        <translation>ציין קובץ pid (ברירת מחדל: schillingcoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>

@@ -2202,8 +2202,8 @@ Adresa:%4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or peercoind</source>
-        <translation>Pošalji komandu usluzi -server ili peercoind</translation>
+        <source>Send command to -server or schillingcoind</source>
+        <translation>Pošalji komandu usluzi -server ili schillingcoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2227,7 +2227,7 @@ Adresa:%4
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: peercoind.pid)</source>
+        <source>Specify pid file (default: schillingcoind.pid)</source>
         <translation>Odredi proces ID datoteku (ugrađeni izbor: peercoin.pid)</translation>
     </message>
     <message>

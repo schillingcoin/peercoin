@@ -2203,8 +2203,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or peercoind</source>
-        <translation>-server या peercoind को कमांड भेजें</translation>
+        <source>Send command to -server or schillingcoind</source>
+        <translation>-server या schillingcoind को कमांड भेजें</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2228,7 +2228,7 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: peercoind.pid)</source>
+        <source>Specify pid file (default: schillingcoind.pid)</source>
         <translation>pid फाइल का विवरण दें (default: peercoin.pid)</translation>
     </message>
     <message>

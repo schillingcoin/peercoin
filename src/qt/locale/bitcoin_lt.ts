@@ -2205,8 +2205,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or peercoind</source>
-        <translation>Siųsti komandą serveriui arba peercoind</translation>
+        <source>Send command to -server or schillingcoind</source>
+        <translation>Siųsti komandą serveriui arba schillingcoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2230,8 +2230,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: peercoind.pid)</source>
-        <translation>Nurodyti pid failą (pagal nutylėjimą: peercoind.pid)</translation>
+        <source>Specify pid file (default: schillingcoind.pid)</source>
+        <translation>Nurodyti pid failą (pagal nutylėjimą: schillingcoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>

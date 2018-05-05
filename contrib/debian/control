@@ -31,7 +31,7 @@ Homepage: https://peercoin.net/
 Vcs-Git: git://github.com/peercoin/peercoin.git
 Vcs-Browser: https://github.com/peercoin/peercoin
 
-Package: peercoind
+Package: schillingcoind
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
@@ -39,7 +39,7 @@ Description: peer-to-peer network based digital currency - daemon
  energy-efficiency and keep as much as possible the original Bitcoin's
  preferable properties.
  .
- This package provides peercoind, a daemon client for the Peercoin network.
+ This package provides schillingcoind, a daemon client for the Peercoin network.
 
 Package: peercoin-qt
 Architecture: any

@@ -74,14 +74,14 @@ Installing the dependencies using MacPorts is very straightforward.
 
     sudo port install boost db48@+no_java openssl miniupnpc
 
-### Building `peercoind`
+### Building `schillingcoind`
 
 1. Clone the github tree to get the source code and go into the directory.
 
         git clone git@github.com:peercoin/peercoin.git peercoin
         cd peercoin
 
-2.  Build peercoind:
+2.  Build schillingcoind:
 
         cd src
         make -f makefile.osx
@@ -107,7 +107,7 @@ If not, you can ensure that the Brew OpenSSL is correctly linked by running
 
 Rerunning "openssl version" should now return the correct version.
 
-### Building `peercoind`
+### Building `schillingcoind`
 
 1. Clone the github tree to get the source code and go into the directory.
 
@@ -122,7 +122,7 @@ Rerunning "openssl version" should now return the correct version.
 
         patch -p1 < contrib/homebrew/makefile.osx.patch
 
-3.  Build peercoind:
+3.  Build schillingcoind:
 
         cd src
         make -f makefile.osx
@@ -132,10 +132,10 @@ Rerunning "openssl version" should now return the correct version.
 Creating a release build
 ------------------------
 
-A peercoind binary is not included in the Peercoin-Qt.app bundle. You can ignore
-this section if you are building `peercoind` for your own use.
+A schillingcoind binary is not included in the Peercoin-Qt.app bundle. You can ignore
+this section if you are building `schillingcoind` for your own use.
 
-If you are building `peercoind` for others, your build machine should be set up
+If you are building `schillingcoind` for others, your build machine should be set up
 as follows for maximum compatibility:
 
 All dependencies should be compiled with these flags:
@@ -164,10 +164,10 @@ Once dependencies are compiled, creating `Bitcoin-Qt.app` is easy:
 Running
 -------
 
-It's now available at `./peercoind`, provided that you are still in the `src`
+It's now available at `./schillingcoind`, provided that you are still in the `src`
 directory. We have to first create the RPC configuration file, though.
 
-Run `./peercoind` to get the filename where it should be put, or just try these
+Run `./schillingcoind` to get the filename where it should be put, or just try these
 commands:
 
     echo -e "rpcuser=bitcoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Peercoin/peercoin.conf"
@@ -178,6 +178,6 @@ output anything while it's doing this. This process may take several hours.
 
 Other commands:
 
-    ./peercoind --help  # for a list of command-line options.
-    ./peercoind -daemon # to start the bitcoin daemon.
-    ./peercoind help    # When the daemon is running, to get a list of RPC commands
+    ./schillingcoind --help  # for a list of command-line options.
+    ./schillingcoind -daemon # to start the bitcoin daemon.
+    ./schillingcoind help    # When the daemon is running, to get a list of RPC commands

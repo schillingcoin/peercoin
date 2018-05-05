@@ -71,9 +71,9 @@ script: |
     cp -f release/peercoin-qt.exe $BINDIR/
 
     cd src
-    make -f makefile.linux-mingw $MAKEOPTS HOST=$HOST DEPSDIR=$STAGING peercoind.exe USE_UPNP=0 DEBUGFLAGS="-frandom-seed=peercoin" LDFLAGS="-static-libgcc -static-libstdc++"
-    ${HOST}-strip peercoind.exe
-    cp -f peercoind.exe $BINDIR/
+    make -f makefile.linux-mingw $MAKEOPTS HOST=$HOST DEPSDIR=$STAGING schillingcoind.exe USE_UPNP=0 DEBUGFLAGS="-frandom-seed=peercoin" LDFLAGS="-static-libgcc -static-libstdc++"
+    ${HOST}-strip schillingcoind.exe
+    cp -f schillingcoind.exe $BINDIR/
 
     cd $BUILDDIR
     mkdir nsis
@@ -81,7 +81,7 @@ script: |
     tar -xf $HOME/build/peercoin/$DISTNAME
     mkdir release
     cp $BINDIR/peercoin-qt.exe release/
-    cp $BINDIR/peercoind.exe release/
+    cp $BINDIR/schillingcoind.exe release/
     cp share/setup.nsi.in share/setup.nsi
     makensis share/setup.nsi
     cp share/peercoin-*setup*.exe $BINDIR

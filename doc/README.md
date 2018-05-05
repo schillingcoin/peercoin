@@ -20,9 +20,9 @@ Setup
 -----
 Unpack the files into a directory and run:
  bin/32/peercoin-qt (GUI, 32-bit)
- bin/32/peercoind (headless, 32-bit)
+ bin/32/schillingcoind (headless, 32-bit)
  bin/64/peercoin-qt (GUI, 64-bit)
- bin/64/peercoind (headless, 64-bit)
+ bin/64/schillingcoind (headless, 64-bit)
 
 The software automatically finds other nodes to connect to.  You can
 enable Universal Plug and Play (UPnP) with your router/firewall
@@ -35,13 +35,13 @@ Upgrade
 -------
 All your existing coins/transactions should be intact with the upgrade.
 To upgrade from 0.5, first backup wallet
-peercoind backupwallet <destination_backup_file>
-Then shutdown peercoind by
-peercoind stop
+schillingcoind backupwallet <destination_backup_file>
+Then shutdown schillingcoind by
+schillingcoind stop
 Uninstall v0.5 client, download and install v0.6 client.
 Remove all files and subdirectory in your wallet directory EXCEPT FOR
 wallet.dat (wallet file) and peercoin.conf (configuration file).
-Start up the new peercoind (0.6).
+Start up the new schillingcoind (0.6).
 For this upgrade blockchain re-download is required.
 
 
