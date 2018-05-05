@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Peercoin</source>
-        <translation>Info su Peercoin</translation>
+        <source>About SchillingCoin</source>
+        <translation>Info su SchillingCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Peercoin&lt;/b&gt; version</source>
-        <translation>Versione di &lt;b&gt;Peercoin&lt;/b&gt;</translation>
+        <source>&lt;b&gt;SchillingCoin&lt;/b&gt; version</source>
+        <translation>Versione di &lt;b&gt;SchillingCoin&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,8 +34,8 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     </message>
     <message>
         <location line="+0"/>
-        <source>The Peercoin developers</source>
-        <translation>Sviluppatori di Peercoin</translation>
+        <source>The SchillingCoin developers</source>
+        <translation>Sviluppatori di SchillingCoin</translation>
     </message>
 </context>
 <context>
@@ -67,8 +67,8 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Peercoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Questi sono i tuoi indirizzi Peercoin per ricevere pagamenti. Potrai darne uno diverso ad ognuno per tenere così traccia di chi ti sta pagando.</translation>
+        <source>These are your SchillingCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Questi sono i tuoi indirizzi SchillingCoin per ricevere pagamenti. Potrai darne uno diverso ad ognuno per tenere così traccia di chi ti sta pagando.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,7 +82,7 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Peercoin address</source>
+        <source>Sign a message to prove you own a SchillingCoin address</source>
         <translation>Firma un messaggio per dimostrare di possedere questo indirizzo</translation>
     </message>
     <message>
@@ -107,8 +107,8 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Peercoin address</source>
-        <translation>Verifica un messaggio per accertarsi che sia firmato con un indirizzo Peercoin specifico</translation>
+        <source>Verify a message to ensure it was signed with a specified SchillingCoin address</source>
+        <translation>Verifica un messaggio per accertarsi che sia firmato con un indirizzo SchillingCoin specifico</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,7 +122,7 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Peercoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your SchillingCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -138,7 +138,7 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     <message>
         <location line="+1"/>
         <source>Send &amp;Coins</source>
-        <translation>Invia &amp;Peercoin</translation>
+        <translation>Invia &amp;SchillingCoin</translation>
     </message>
     <message>
         <location line="+260"/>
@@ -275,8 +275,8 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     </message>
     <message>
         <location line="-56"/>
-        <source>Peercoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your peercoins from being stolen by malware infecting your computer.</source>
-        <translation>Peercoin verrà ora chiuso per finire il processo di crittazione. Ricorda che criptare il tuo portamonete non può fornire una protezione totale contro furti causati da malware che dovessero infettare il tuo computer.</translation>
+        <source>SchillingCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your peercoins from being stolen by malware infecting your computer.</source>
+        <translation>SchillingCoin verrà ora chiuso per finire il processo di crittazione. Ricorda che criptare il tuo portamonete non può fornire una protezione totale contro furti causati da malware che dovessero infettare il tuo computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Peercoin</source>
-        <translation>Mostra informazioni su Peercoin</translation>
+        <source>Show information about SchillingCoin</source>
+        <translation>Mostra informazioni su SchillingCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,12 +419,12 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Peercoin address</source>
+        <source>Send coins to a SchillingCoin address</source>
         <translation>Invia monete ad un indirizzo peercoin</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Peercoin</source>
+        <source>Modify configuration options for SchillingCoin</source>
         <translation>Modifica configurazione opzioni per peercoin</translation>
     </message>
     <message>
@@ -455,8 +455,8 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Peercoin</source>
-        <translation>Peercoin</translation>
+        <source>SchillingCoin</source>
+        <translation>SchillingCoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Peercoin</source>
-        <translation>&amp;Info su Peercoin</translation>
+        <source>&amp;About SchillingCoin</source>
+        <translation>&amp;Info su SchillingCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Peercoin addresses to prove you own them</source>
-        <translation>Firma i messaggi con il tuo indirizzo Peercoin per dimostrare di possederli</translation>
+        <source>Sign messages with your SchillingCoin addresses to prove you own them</source>
+        <translation>Firma i messaggi con il tuo indirizzo SchillingCoin per dimostrare di possederli</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Peercoin addresses</source>
-        <translation>Verifica i messaggi per accertarsi che siano stati firmati con gli indirizzi Peercoin specificati</translation>
+        <source>Verify messages to ensure they were signed with specified SchillingCoin addresses</source>
+        <translation>Verifica i messaggi per accertarsi che siano stati firmati con gli indirizzi SchillingCoin specificati</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     </message>
     <message>
         <location line="+47"/>
-        <source>Peercoin client</source>
-        <translation>Peercoin client</translation>
+        <source>SchillingCoin client</source>
+        <translation>SchillingCoin client</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Peercoin network</source>
-        <translation><numerusform>%n connessione attiva alla rete Peercoin</numerusform><numerusform>%n connessioni attive alla rete Peercoin</numerusform></translation>
+        <source>%n active connection(s) to SchillingCoin network</source>
+        <translation><numerusform>%n connessione attiva alla rete SchillingCoin</numerusform><numerusform>%n connessioni attive alla rete SchillingCoin</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -657,8 +657,8 @@ Indirizzo: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Peercoin address or malformed URI parameters.</source>
-        <translation>Impossibile interpretare l&apos;URI! Ciò può essere causato da un indirizzo Peercoin invalido o da parametri URI non corretti.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid SchillingCoin address or malformed URI parameters.</source>
+        <translation>Impossibile interpretare l&apos;URI! Ciò può essere causato da un indirizzo SchillingCoin invalido o da parametri URI non corretti.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -672,8 +672,8 @@ Indirizzo: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Peercoin can no longer continue safely and will quit.</source>
-        <translation>Riscontrato un errore irreversibile. Peercoin non può più continuare in sicurezza e verrà terminato.</translation>
+        <source>A fatal error occurred. SchillingCoin can no longer continue safely and will quit.</source>
+        <translation>Riscontrato un errore irreversibile. SchillingCoin non può più continuare in sicurezza e verrà terminato.</translation>
     </message>
 </context>
 <context>
@@ -738,7 +738,7 @@ Indirizzo: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Peercoin address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid SchillingCoin address.</source>
         <translation>L&apos;indirizzo inserito &quot;%1&quot; non è un indirizzo peercoin valido.</translation>
     </message>
     <message>
@@ -757,8 +757,8 @@ Indirizzo: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Peercoin-Qt</source>
-        <translation>Peercoin-Qt</translation>
+        <source>SchillingCoin-Qt</source>
+        <translation>SchillingCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -821,8 +821,8 @@ Indirizzo: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Peercoin after logging in to the system.</source>
-        <translation>Avvia automaticamente Peercoin all&apos;accensione del computer</translation>
+        <source>Automatically start SchillingCoin after logging in to the system.</source>
+        <translation>Avvia automaticamente SchillingCoin all&apos;accensione del computer</translation>
     </message>
     <message>
         <location line="+46"/>
@@ -831,8 +831,8 @@ Indirizzo: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Peercoin on system login</source>
-        <translation>&amp;Fai partire Peercoin all&apos;avvio del sistema</translation>
+        <source>&amp;Start SchillingCoin on system login</source>
+        <translation>&amp;Fai partire SchillingCoin all&apos;avvio del sistema</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -856,8 +856,8 @@ Indirizzo: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Peercoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Apri automaticamente la porta del client Peercoin sul router. Questo funziona solo se il router supporta UPnP ed è abilitato.</translation>
+        <source>Automatically open the SchillingCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Apri automaticamente la porta del client SchillingCoin sul router. Questo funziona solo se il router supporta UPnP ed è abilitato.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -866,7 +866,7 @@ Indirizzo: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Peercoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the SchillingCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation>Connettiti alla rete Bitcon attraverso un proxy SOCKS (ad esempio quando ci si collega via Tor)</translation>
     </message>
     <message>
@@ -941,8 +941,8 @@ Indirizzo: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Peercoin.</source>
-        <translation>La lingua dell&apos;interfaccia utente può essere impostata qui. L&apos;impostazione avrà effetto dopo il riavvio di Peercoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting SchillingCoin.</source>
+        <translation>La lingua dell&apos;interfaccia utente può essere impostata qui. L&apos;impostazione avrà effetto dopo il riavvio di SchillingCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -956,8 +956,8 @@ Indirizzo: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Peercoin addresses in the transaction list or not.</source>
-        <translation>Se mostrare l&apos;indirizzo Peercoin nella transazione o meno.</translation>
+        <source>Whether to show SchillingCoin addresses in the transaction list or not.</source>
+        <translation>Se mostrare l&apos;indirizzo SchillingCoin nella transazione o meno.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1008,8 +1008,8 @@ Indirizzo: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Peercoin.</source>
-        <translation>L&apos;impostazione avrà effetto dopo il riavvio di Peercoin.</translation>
+        <source>This setting will take effect after restarting SchillingCoin.</source>
+        <translation>L&apos;impostazione avrà effetto dopo il riavvio di SchillingCoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1027,8 +1027,8 @@ Indirizzo: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Peercoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Le informazioni visualizzate sono datate. Il tuo partafogli verrà sincronizzato automaticamente con il network Peercoin dopo che la connessione è stabilita, ma questo processo non può essere completato ora.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SchillingCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Le informazioni visualizzate sono datate. Il tuo partafogli verrà sincronizzato automaticamente con il network SchillingCoin dopo che la connessione è stabilita, ma questo processo non può essere completato ora.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1231,8 +1231,8 @@ Indirizzo: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Peercoin-Qt help message to get a list with possible Peercoin command-line options.</source>
-        <translation>Mostra il messaggio di aiuto di Peercoin-QT per avere la lista di tutte le opzioni della riga di comando di Peercoin.</translation>
+        <source>Show the SchillingCoin-Qt help message to get a list with possible SchillingCoin command-line options.</source>
+        <translation>Mostra il messaggio di aiuto di SchillingCoin-QT per avere la lista di tutte le opzioni della riga di comando di SchillingCoin.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1251,12 +1251,12 @@ Indirizzo: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Peercoin - Debug window</source>
-        <translation>Peercoin - Finestra debug</translation>
+        <source>SchillingCoin - Debug window</source>
+        <translation>SchillingCoin - Finestra debug</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Peercoin Core</source>
+        <source>SchillingCoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1266,8 +1266,8 @@ Indirizzo: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Peercoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Apri il file di log del debug di Peercoin dalla cartella attuale. Può richiedere alcuni secondi per file di log grandi.</translation>
+        <source>Open the SchillingCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Apri il file di log del debug di SchillingCoin dalla cartella attuale. Può richiedere alcuni secondi per file di log grandi.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1276,8 +1276,8 @@ Indirizzo: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Peercoin RPC console.</source>
-        <translation>Benvenuto nella console RPC di Peercoin</translation>
+        <source>Welcome to the SchillingCoin RPC console.</source>
+        <translation>Benvenuto nella console RPC di SchillingCoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1302,7 +1302,7 @@ Indirizzo: %4
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Spedisci Peercoin</translation>
+        <translation>Spedisci SchillingCoin</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -1460,8 +1460,8 @@ Indirizzo: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Peercoin address</source>
-        <translation>Inserisci un indirizzo Peercoin (ad esempio 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a SchillingCoin address</source>
+        <translation>Inserisci un indirizzo SchillingCoin (ad esempio 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1484,7 +1484,7 @@ Indirizzo: %4
     <message>
         <location line="+18"/>
         <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Inserisci un indirizzo Peercoin (ad esempio 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>Inserisci un indirizzo SchillingCoin (ad esempio 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1525,7 +1525,7 @@ Indirizzo: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Peercoin address</source>
+        <source>Sign the message to prove you own this SchillingCoin address</source>
         <translation>Firma un messaggio per dimostrare di possedere questo indirizzo</translation>
     </message>
     <message>
@@ -1557,12 +1557,12 @@ Indirizzo: %4
     <message>
         <location line="+21"/>
         <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Inserisci un indirizzo Peercoin (ad esempio 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>Inserisci un indirizzo SchillingCoin (ad esempio 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Peercoin address</source>
-        <translation>Verifica il messaggio per assicurarsi che sia stato firmato con l&apos;indirizzo Peercoin specificato</translation>
+        <source>Verify the message to ensure it was signed with the specified SchillingCoin address</source>
+        <translation>Verifica il messaggio per assicurarsi che sia stato firmato con l&apos;indirizzo SchillingCoin specificato</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1577,8 +1577,8 @@ Indirizzo: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Peercoin address</source>
-        <translation>Inserisci un indirizzo Peercoin (ad esempio 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a SchillingCoin address</source>
+        <translation>Inserisci un indirizzo SchillingCoin (ad esempio 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1587,8 +1587,8 @@ Indirizzo: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Peercoin signature</source>
-        <translation>Inserisci firma Peercoin</translation>
+        <source>Enter SchillingCoin signature</source>
+        <translation>Inserisci firma SchillingCoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1661,8 +1661,8 @@ Indirizzo: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Peercoin developers</source>
-        <translation>Sviluppatori di Peercoin</translation>
+        <source>The SchillingCoin developers</source>
+        <translation>Sviluppatori di SchillingCoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2149,7 +2149,7 @@ Indirizzo: %4
     <message>
         <location filename="../walletmodel.cpp" line="+193"/>
         <source>Send Coins</source>
-        <translation>Spedisci Peercoin</translation>
+        <translation>Spedisci SchillingCoin</translation>
     </message>
 </context>
 <context>
@@ -2199,8 +2199,8 @@ Indirizzo: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Peercoin version</source>
-        <translation>Versione di Peercoin</translation>
+        <source>SchillingCoin version</source>
+        <translation>Versione di SchillingCoin</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2328,7 +2328,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Peercoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;SchillingCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2344,8 +2344,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Peercoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Peercoin is probably already running.</source>
-        <translation>Non è possibile ottenere i dati sulla cartella %s. Probabilmente Peercoin è già in esecuzione.</translation>
+        <source>Cannot obtain a lock on data directory %s. SchillingCoin is probably already running.</source>
+        <translation>Non è possibile ottenere i dati sulla cartella %s. Probabilmente SchillingCoin è già in esecuzione.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2389,8 +2389,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Peercoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Peercoin will not work properly.</source>
-        <translation>Attenzione: si prega di controllare che la data del computer e l&apos;ora siano corrette. Se il vostro orologio è sbagliato Peercoin non funziona correttamente.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong SchillingCoin will not work properly.</source>
+        <translation>Attenzione: si prega di controllare che la data del computer e l&apos;ora siano corrette. Se il vostro orologio è sbagliato SchillingCoin non funziona correttamente.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2640,7 +2640,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Peercoin Alert&quot; admin@foo
     <message>
         <location line="+5"/>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>Opzioni SSL: (vedi il wiki di Peercoin per le istruzioni di configurazione SSL)</translation>
+        <translation>Opzioni SSL: (vedi il wiki di SchillingCoin per le istruzioni di configurazione SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2841,13 +2841,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Peercoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Peercoin</source>
-        <translation>Errore caricamento wallet.dat: il wallet richiede una versione nuova di Peercoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of SchillingCoin</source>
+        <translation>Errore caricamento wallet.dat: il wallet richiede una versione nuova di SchillingCoin</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Peercoin to complete</source>
-        <translation>Il portamonete deve essere riscritto: riavviare Peercoin per completare</translation>
+        <source>Wallet needed to be rewritten: restart SchillingCoin to complete</source>
+        <translation>Il portamonete deve essere riscritto: riavviare SchillingCoin per completare</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2906,8 +2906,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Peercoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Peercoin is probably already running.</source>
-        <translation>Impossibile collegarsi alla %s su questo computer. Probabilmente Peercoin è già in esecuzione.</translation>
+        <source>Unable to bind to %s on this computer. SchillingCoin is probably already running.</source>
+        <translation>Impossibile collegarsi alla %s su questo computer. Probabilmente SchillingCoin è già in esecuzione.</translation>
     </message>
     <message>
         <location line="+64"/>
