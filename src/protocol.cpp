@@ -25,18 +25,19 @@ static unsigned int nMessageStartTestSwitchTime = 1346200000;
 
 // Peercoin message start (switch from Bitcoin's in v0.2)
 static unsigned char pchMessageStartBitcoin[4] = { 0xf9, 0xbe, 0xb4, 0xd9 };
-static unsigned char pchMessageStartPeercoin[4] = { 0xe6, 0xe8, 0xe9, 0xe5 };
+static unsigned char pchMessageStartPeercoin[4] = { 0xe8, 0xf8, 0xa4, 0x22 };
 static unsigned int nMessageStartSwitchTime = 1347300000;
 
-unsigned char pchMessageStart[4] = { 0xe6, 0xe8, 0xe9, 0xe5 };
+unsigned char pchMessageStart[4] = { 0xe8, 0xf8, 0xc4, 0xe2 };
 
-void GetMessageStart(unsigned char pchMessageStart[], bool fPersistent)
+void GetMessageStart(unsigned char pchMessageStart[])
 {
-    if (fTestNet)
-        memcpy(pchMessageStart, (fPersistent || GetAdjustedTime() > nMessageStartTestSwitchTime)? pchMessageStartTestNew : pchMessageStartTestOld, sizeof(pchMessageStartTestNew));
-    else
-        memcpy(pchMessageStart, (fPersistent || GetAdjustedTime() > nMessageStartSwitchTime)? pchMessageStartPeercoin : pchMessageStartBitcoin, sizeof(pchMessageStartPeercoin));
+        if (fTestNet)
+                memcpy(pchMessageStart, pchMessageStartTestNew, sizeof(pchMessageStartTestNew));
+        else
+                memcpy(pchMessageStart, pchMessageStartPeercoin, sizeof(pchMessageStartPeercoin));
 }
+
 
 static const char* ppszTypeName[] =
 {
