@@ -10,14 +10,14 @@ QT_TRANSLATE_NOOP("bitcoin-core", ""
 "%s, you must set a rpcpassword in the configuration file:\n"
 "%s\n"
 "It is recommended you use the following random password:\n"
-"rpcuser=peercoinrpc\n"
+"rpcuser=schillingcoinrpc\n"
 "rpcpassword=%s\n"
 "(you do not need to remember this password)\n"
 "The username and password MUST NOT be the same.\n"
 "If the file does not exist, create it with owner-readable-only file "
 "permissions.\n"
 "It is also recommended to set alertnotify so you are notified of problems;\n"
-"for example: alertnotify=echo %%s | mail -s \"Peercoin Alert\" admin@foo."
+"for example: alertnotify=echo %%s | mail -s \"SchillingCoin Alert\" admin@foo."
 "com\n"),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
 "Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:"
@@ -31,7 +31,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", ""
 "Bind to given address and always listen on it. Use [host]:port notation for "
 "IPv6"),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
-"Cannot obtain a lock on data directory %s. Peercoin is probably already "
+"Cannot obtain a lock on data directory %s. SchillingCoin is probably already "
 "running."),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
 "Enter regression test mode, which uses a special chain in which blocks can "
@@ -70,7 +70,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", ""
 "This is a pre-release test build - use at your own risk - do not use for "
 "mining or merchant applications"),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
-"Unable to bind to %s on this computer. Peercoin is probably already running."),
+"Unable to bind to %s on this computer. SchillingCoin is probably already running."),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
 "Warning: -paytxfee is set very high! This is the transaction fee you will "
 "pay if you send a transaction."),
@@ -118,7 +118,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", "Error initializing wallet database environmen
 QT_TRANSLATE_NOOP("bitcoin-core", "Error loading block database"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Error loading wallet.dat"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Error loading wallet.dat: Wallet corrupted"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Error loading wallet.dat: Wallet requires newer version of Peercoin"),
+QT_TRANSLATE_NOOP("bitcoin-core", "Error loading wallet.dat: Wallet requires newer version of SchillingCoin"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Error opening block database"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Error"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Error: Disk space is low!"),
@@ -168,7 +168,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", "Only accept block chain matching built-in che
 QT_TRANSLATE_NOOP("bitcoin-core", "Only connect to nodes in network <net> (IPv4, IPv6 or Tor)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Options:"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Password for JSON-RPC connections"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Peercoin version"),
+QT_TRANSLATE_NOOP("bitcoin-core", "SchillingCoin version"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Prepend debug output with timestamp (default: 1)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "RPC client options:"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Rebuild block chain index from current blk000??.dat files"),
@@ -179,7 +179,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", "SSL options: (see the Bitcoin Wiki for SSL se
 QT_TRANSLATE_NOOP("bitcoin-core", "SchillingCoin RPC client version"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Select the version of socks proxy to use (4-5, default: 5)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Send command to -server or schillingcoind"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Send command to Peercoin server"),
+QT_TRANSLATE_NOOP("bitcoin-core", "Send command to SchillingCoin server"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Send commands to node running on <ip> (default: 127.0.0.1)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Send trace/debug info to console instead of debug.log file"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Send trace/debug info to debugger"),
@@ -192,8 +192,8 @@ QT_TRANSLATE_NOOP("bitcoin-core", "Set minimum block size in bytes (default: 0)"
 QT_TRANSLATE_NOOP("bitcoin-core", "Set the number of threads to service RPC calls (default: 4)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Shrink debug.log file on client startup (default: 1 when no -debug)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Signing transaction failed"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Specify configuration file (default: peercoin.conf)"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Specify configuration file (default: ppcoin.conf)"),
+QT_TRANSLATE_NOOP("bitcoin-core", "Specify configuration file (default: schillingcoin.conf)"),
+QT_TRANSLATE_NOOP("bitcoin-core", "Specify configuration file (default: sc.conf)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Specify connection timeout in milliseconds (default: 5000)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Specify data directory"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Specify pid file (default: schillingcoind.pid)"),
@@ -220,7 +220,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", "Username for JSON-RPC connections"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Verifying blocks..."),
 QT_TRANSLATE_NOOP("bitcoin-core", "Verifying wallet..."),
 QT_TRANSLATE_NOOP("bitcoin-core", "Wait for RPC server to start"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Wallet needed to be rewritten: restart Peercoin to complete"),
+QT_TRANSLATE_NOOP("bitcoin-core", "Wallet needed to be rewritten: restart SchillingCoin to complete"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Warning"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Warning: This version is obsolete, upgrade required!"),
 QT_TRANSLATE_NOOP("bitcoin-core", "You need to rebuild the databases using -reindex to change -txindex"),

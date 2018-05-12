@@ -194,7 +194,6 @@ private slots:
     /** Show about dialog */
     void aboutClicked();
 
-    // Open chatroom / forum URL in the system's browser.
 
 #ifndef Q_OS_MAC
     /** Handle tray icon clicked */
