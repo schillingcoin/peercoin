@@ -3,8 +3,8 @@ AM_CPPFLAGS +=  -I$(top_srcdir)/src \
   -I$(top_builddir)/src/qt \
   $(PROTOBUF_CFLAGS) \
     $(QR_CFLAGS)
-bin_PROGRAMS += qt/test/test_peercoin-qt
-TESTS += qt/test/test_peercoin-qt
+bin_PROGRAMS += qt/test/test_schillingcoin-qt
+TESTS += qt/test/test_schillingcoin-qt
 
 TEST_QT_MOC_CPP = qt/test/moc_uritests.cpp
 
@@ -35,9 +35,9 @@ CLEAN_PEERCOIN_QT_TEST = $(TEST_QT_MOC_CPP) qt/test/*.gcda qt/test/*.gcno
 
 CLEANFILES += $(CLEAN_PEERCOIN_QT_TEST)
 
-test_peercoin_qt : qt/test/test_peercoin-qt$(EXEEXT)
+test_peercoin_qt : qt/test/test_schillingcoin-qt$(EXEEXT)
 
-test_peercoin_qt_check : qt/test/test_peercoin-qt$(EXEEXT) FORCE
+test_peercoin_qt_check : qt/test/test_schillingcoin-qt$(EXEEXT) FORCE
 	$(MAKE) check-TESTS TESTS=$^
 
 test_peercoin_qt_clean: FORCE

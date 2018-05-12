@@ -445,7 +445,7 @@ HelpMessageBox::HelpMessageBox(QWidget *parent) :
     header = tr("Peercoin-Qt") + " " + tr("version") + " " +
         QString::fromStdString(FormatFullVersion()) + "\n\n" +
         tr("Usage:") + "\n" +
-        "  peercoin-qt [" + tr("command-line options") + "]                     " + "\n";
+        "  schillingcoin-qt [" + tr("command-line options") + "]                     " + "\n";
 
     coreOptions = QString::fromStdString(HelpMessage(HMM_BITCOIN_QT));
 

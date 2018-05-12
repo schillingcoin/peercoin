@@ -18,12 +18,12 @@ help further advance the field of crypto-currency.
 
 Setup
 -----
-After completing windows setup then run peercoin-qt.
+After completing windows setup then run schillingcoin-qt.
 Alternatively you can run windows command line (cmd) in peercoin program dir.
   cd daemon
   schillingcoind
 You would need to create a configuration file peercoin.conf in the default
-wallet directory. Grant access to schillingcoind/peercoin-qt in anti-virus and firewall
+wallet directory. Grant access to schillingcoind/schillingcoin-qt in anti-virus and firewall
 applications if necessary.
 
 The software automatically finds other nodes to connect to.  You can

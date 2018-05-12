@@ -41,7 +41,7 @@ Description: peer-to-peer network based digital currency - daemon
  .
  This package provides schillingcoind, a daemon client for the Peercoin network.
 
-Package: peercoin-qt
+Package: schillingcoin-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI

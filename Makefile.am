@@ -5,7 +5,7 @@ SUBDIRS = src
 GZIP_ENV="-9n"
 
 BITCOIND_BIN=$(top_builddir)/src/schillingcoind$(EXEEXT)
-BITCOIN_QT_BIN=$(top_builddir)/src/qt/peercoin-qt$(EXEEXT)
+BITCOIN_QT_BIN=$(top_builddir)/src/qt/schillingcoin-qt$(EXEEXT)
 BITCOIN_WIN_INSTALLER=$(PACKAGE)-$(PACKAGE_VERSION)-win32-setup$(EXEEXT)
 
 OSX_APP=Peercoin-Qt.app
@@ -56,7 +56,7 @@ $(BITCOIND_BIN):
 	make -C $(top_srcdir)/src schillingcoind$(EXEEXT)
 
 $(BITCOIN_QT_BIN):
-	make -C $(top_srcdir)/src/qt peercoin-qt$(EXEEXT)
+	make -C $(top_srcdir)/src/qt schillingcoin-qt$(EXEEXT)
 
 
 $(OSX_APP)/Contents/PkgInfo:

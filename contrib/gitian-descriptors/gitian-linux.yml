@@ -50,7 +50,7 @@ script: |
 
   qmake INCLUDEPATH="$STAGING/include" LIBS="-L$STAGING/lib" USE_QRCODE=1 RELEASE=1 BOOST_LIB_SUFFIX=-mt QMAKE_CXXFLAGS=-frandom-seed=peercoin QMAKE_LFLAGS=-frandom-seed=peercoin
   make $MAKEOPTS
-  install -s peercoin-qt $BINDIR
+  install -s schillingcoin-qt $BINDIR
 
   cd src
   make -f makefile.unix STATIC=1 $MAKEOPTS schillingcoind USE_UPNP=0 BDB_INCLUDE_PATH=$STAGING/include BDB_LIB_PATH=$STAGING/lib BOOST_LIB_SUFFIX=-mt DEBUGFLAGS=

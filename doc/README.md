@@ -19,9 +19,9 @@ help further advance the field of crypto-currency.
 Setup
 -----
 Unpack the files into a directory and run:
- bin/32/peercoin-qt (GUI, 32-bit)
+ bin/32/schillingcoin-qt (GUI, 32-bit)
  bin/32/schillingcoind (headless, 32-bit)
- bin/64/peercoin-qt (GUI, 64-bit)
+ bin/64/schillingcoin-qt (GUI, 64-bit)
  bin/64/schillingcoind (headless, 64-bit)
 
 The software automatically finds other nodes to connect to.  You can

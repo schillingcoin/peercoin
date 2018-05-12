@@ -1,5 +1,5 @@
 ---
-name: "peercoin-qt"
+name: "schillingcoin-qt"
 suites:
 - "trusty"
 architectures:

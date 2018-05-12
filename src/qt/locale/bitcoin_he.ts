@@ -1229,7 +1229,7 @@ Address: %4
     <message>
         <location line="+7"/>
         <source>Show the SchillingCoin-Qt help message to get a list with possible SchillingCoin command-line options.</source>
-        <translation>הצג את הודעה העזרה של peercoin-qt כדי לקבל רשימה של אפשרויות שורת פקודה של ביטקוין.</translation>
+        <translation>הצג את הודעה העזרה של schillingcoin-qt כדי לקבל רשימה של אפשרויות שורת פקודה של ביטקוין.</translation>
     </message>
     <message>
         <location line="+3"/>

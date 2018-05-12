@@ -3,7 +3,7 @@ AM_CPPFLAGS += -I$(top_srcdir)/src \
   -I$(top_builddir)/src/qt/forms \
   $(PROTOBUF_CFLAGS) \
   $(QR_CFLAGS)
-bin_PROGRAMS += qt/peercoin-qt
+bin_PROGRAMS += qt/schillingcoin-qt
 noinst_LIBRARIES += qt/libpeercoinqt.a
 
 # peercoin qt core #
@@ -309,7 +309,7 @@ $(qt_libpeercoinqt_a_OBJECTS) $(qt_bpeercoin_qt_OBJECTS) : | $(QT_MOC)
 $(QT_MOC): $(PROTOBUF_H)
 $(QT_MOC_CPP): $(PROTOBUF_H)
 
-# peercoin-qt binary #
+# schillingcoin-qt binary #
 qt_peercoin_qt_CPPFLAGS = $(AM_CPPFLAGS) $(QT_INCLUDES) \
   -I$(top_srcdir)/src/qt/forms
 qt_peercoin_qt_CXXFLAGS = $(AM_CXXFLAGS) $(QT_PIE_FLAGS)
@@ -355,9 +355,9 @@ CLEAN_QT = $(nodist_qt_libpeercoinqt_a_SOURCES) $(QT_QM) $(QT_FORMS_H) qt/*.gcda
 CLEANFILES += $(CLEAN_QT)
 
 peercoin_qt_clean: FORCE
-	rm -f $(CLEAN_QT) $(qt_libpeercoinqt_a_OBJECTS) $(qt_peercoin_qt_OBJECTS) qt/peercoin-qt$(EXEEXT) $(LIBPEERCOINQT)
+	rm -f $(CLEAN_QT) $(qt_libpeercoinqt_a_OBJECTS) $(qt_peercoin_qt_OBJECTS) qt/schillingcoin-qt$(EXEEXT) $(LIBPEERCOINQT)
 
-peercoin_qt : qt/peercoin-qt$(EXEEXT)
+peercoin_qt : qt/schillingcoin-qt$(EXEEXT)
 
 ui_%.h: %.ui
 	@test -d $(abs_builddir)/$(@D) || $(MKDIR_P) $(abs_builddir)/$(@D)

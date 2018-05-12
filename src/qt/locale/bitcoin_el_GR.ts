@@ -758,7 +758,7 @@ Address: %4
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
         <source>SchillingCoin-Qt</source>
-        <translation>peercoin-qt</translation>
+        <translation>schillingcoin-qt</translation>
     </message>
     <message>
         <location line="-12"/>

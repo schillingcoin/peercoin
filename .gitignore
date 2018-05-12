@@ -16,7 +16,7 @@ src/peercoin-cli
 src/schillingcoind
 src/test_peercoin
 src/test/test_peercoin
-src/qt/test/test_peercoin-qt
+src/qt/test/test_schillingcoin-qt
 
 # autoreconf
 Makefile.in
@@ -83,16 +83,16 @@ src/qt/res/.dirstamp
 *.qm
 Makefile
 ppcoin-qt
-peercoin-qt
+schillingcoin-qt
 PPCoin-Qt.app
 Peercoin-Qt.app
 .qmake.stash
-peercoin-qt_plugin_import.cpp
+schillingcoin-qt_plugin_import.cpp
 
 # Unit-tests
 Makefile.test
 ppcoin-qt_test
-peercoin-qt_test
+schillingcoin-qt_test
 
 # Resources cpp
 qrc_*.cpp
@@ -123,7 +123,7 @@ qa/pull-tester/run-bitcoind-for-test.sh
 qa/pull-tester/build-tests.sh
 
 !src/leveldb-*/Makefile
-peercoin-qt
+schillingcoin-qt
 
 #db4/
 db4/

@@ -1,5 +1,5 @@
 TEMPLATE = app
-TARGET = peercoin-qt
+TARGET = schillingcoin-qt
 macx:TARGET = "Peercoin-Qt"
 VERSION = 0.6.3
 INCLUDEPATH += src src/json src/qt
