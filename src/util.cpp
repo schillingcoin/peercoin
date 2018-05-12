@@ -1006,7 +1006,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "peercoin";
+    const char* pszModule = "schillingcoin";
 #endif
     if (pex)
         return strprintf(
@@ -1055,13 +1055,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Peercoin
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Peercoin
-    // Mac: ~/Library/Application Support/Peercoin
-    // Unix: ~/.peercoin
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\SchillingCoin
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\SchillingCoin
+    // Mac: ~/Library/Application Support/SchillingCoin
+    // Unix: ~/.schillingcoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Peercoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "SchillingCoin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -1073,10 +1073,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "Peercoin";
+    return pathRet / "SchillingCoin";
 #else
     // Unix
-    return pathRet / ".peercoin";
+    return pathRet / ".schillingcoin";
 #endif
 #endif
 }
@@ -1156,7 +1156,7 @@ const boost::filesystem::path &GetDataDir(bool fNetSpecific)
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "peercoin.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "schillingcoin.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
 
     // Load old config file if present
@@ -1431,7 +1431,7 @@ void AddTimeData(const CNetAddr& ip, int64 nTime)
                 if (!fMatch)
                 {
                     fDone = true;
-                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong Peercoin will not work properly.");
+                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong SchillingCoin will not work properly.");
                     strMiscWarning = strMessage;
                     printf("*** %s\n", strMessage.c_str());
                     uiInterface.ThreadSafeMessageBox(strMessage, "", CClientUIInterface::MSG_WARNING);
@@ -1490,7 +1490,7 @@ std::string FormatSubVersion(const std::string& name, int nClientVersion, const 
     if (!comments.empty())
         ss << "(" << boost::algorithm::join(comments, "; ") << ")";
     ss << "/";
-    ss << "Peercoin:" << FormatVersion(PEERCOIN_VERSION);
+    ss << "SchillingCoin:" << FormatVersion(PEERCOIN_VERSION);
     ss << "(" << CLIENT_BUILD << ")/";
     return ss.str();
 }
