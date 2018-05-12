@@ -1210,7 +1210,7 @@ static const char *strMainNetDNSSeed[][2] = {
     {"seedmiuAT", "dev.miu.at"},
     {"explorerAT", "explorer.schillingcoin.com"},
     {"seed1AT", "seed1.schillingcoin.com"},
-    {"seed2DE", "seed2.schillingcoin.com"}
+    {"seed2DE", "seed2.schillingcoin.com"},
     {NULL, NULL}
 };
 

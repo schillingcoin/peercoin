@@ -1,4 +1,5 @@
 // Copyright (c) 2012-2018 The Peercoin developers
+// Copyright (c) 2017-2018 The SchillingCoin developers 
 // Distributed under conditional MIT/X11 open source software license
 // see the accompanying file COPYING
 #ifndef PPCOIN_CHECKPOINTSYNC_H
