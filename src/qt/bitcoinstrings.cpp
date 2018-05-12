@@ -168,7 +168,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", "Only accept block chain matching built-in che
 QT_TRANSLATE_NOOP("bitcoin-core", "Only connect to nodes in network <net> (IPv4, IPv6 or Tor)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Options:"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Password for JSON-RPC connections"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Peercoin RPC client version"),
+QT_TRANSLATE_NOOP("bitcoin-core", "SchillingCoin RPC client version"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Peercoin version"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Prepend debug output with timestamp (default: 1)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "RPC client options:"),
