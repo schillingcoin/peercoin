@@ -21,13 +21,13 @@ BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
             VALUE "CompanyName",        "Peercoin"
-            VALUE "FileDescription",    "Peercoin-Qt (OSS GUI client for Peercoin)"
+            VALUE "FileDescription",    "SchillingCoin-Qt (OSS GUI client for Peercoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "schillingcoin-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
             VALUE "OriginalFilename",   "schillingcoin-qt.exe"
-            VALUE "ProductName",        "Peercoin-Qt"
+            VALUE "ProductName",        "SchillingCoin-Qt"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

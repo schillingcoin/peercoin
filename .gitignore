@@ -85,7 +85,7 @@ Makefile
 ppcoin-qt
 schillingcoin-qt
 PPCoin-Qt.app
-Peercoin-Qt.app
+SchillingCoin-Qt.app
 .qmake.stash
 schillingcoin-qt_plugin_import.cpp
 

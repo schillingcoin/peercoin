@@ -1,6 +1,6 @@
 TEMPLATE = app
 TARGET = schillingcoin-qt
-macx:TARGET = "Peercoin-Qt"
+macx:TARGET = "SchillingCoin-Qt"
 VERSION = 0.6.3
 INCLUDEPATH += src src/json src/qt
 QT += network core

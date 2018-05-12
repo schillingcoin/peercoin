@@ -27,7 +27,7 @@ To Build
 	./configure
 	make
 
-This will build Peercoin-Qt as well if the dependencies are met.
+This will build SchillingCoin-Qt as well if the dependencies are met.
 See [readme-qt.md](readme-qt.md) for more information.
 
 Dependencies

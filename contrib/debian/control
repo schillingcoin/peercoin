@@ -49,4 +49,4 @@ Description: peer-to-peer network based digital currency - Qt GUI
  energy-efficiency and keep as much as possible the original Bitcoin's
  preferable properties.
  .
- This package provides Peercoin-Qt, a GUI client for Peercoin based on Qt.
+ This package provides SchillingCoin-Qt, a GUI client for Peercoin based on Qt.

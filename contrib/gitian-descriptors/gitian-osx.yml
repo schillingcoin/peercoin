@@ -102,12 +102,12 @@ script: |
   export INSTALLNAMETOOL=${HOST}-install_name_tool
   export STRIP=${HOST}-strip
   chmod +x contrib/macdeploy/macdeployqtplus
-  OTOOL=${HOST}-otool INSTALLNAMETOOL=${HOST}-install_name_tool STRIP=${HOST}-strip contrib/macdeploy/macdeployqtplus Peercoin-Qt.app -add-qt-tr da,de,es,hu,ru,uk,zh_CN,zh_TW -verbose 2
+  OTOOL=${HOST}-otool INSTALLNAMETOOL=${HOST}-install_name_tool STRIP=${HOST}-strip contrib/macdeploy/macdeployqtplus SchillingCoin-Qt.app -add-qt-tr da,de,es,hu,ru,uk,zh_CN,zh_TW -verbose 2
   mkdir -p  dist/.background
   install contrib/macdeploy/background.png dist/.background
   install contrib/macdeploy/DS_Store dist/.DS_Store
   cd dist
   ln -sf /Applications Applications
   cd ..
-  genisoimage -no-cache-inodes -l -probe -V "Peercoin-Qt" -no-pad -r -apple -o Peercoin.tmp.dmg dist
-  dmg dmg Peercoin.tmp.dmg $OUTDIR/Peercoin-Qt.dmg
+  genisoimage -no-cache-inodes -l -probe -V "SchillingCoin-Qt" -no-pad -r -apple -o Peercoin.tmp.dmg dist
+  dmg dmg Peercoin.tmp.dmg $OUTDIR/SchillingCoin-Qt.dmg
