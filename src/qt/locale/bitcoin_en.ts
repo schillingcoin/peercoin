@@ -536,26 +536,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Verify messages to ensure they were signed with specified SchillingCoin addresses</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>&amp;Chatroom</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Open https://peercoin.chat in a web browser.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>&amp;Forum</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Open https://talk.peercoin.net in a web browser.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location line="+28"/>
         <source>&amp;File</source>
         <translation>&amp;File</translation>

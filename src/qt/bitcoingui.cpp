@@ -268,12 +268,6 @@ void BitcoinGUI::createActions()
     openRPCConsoleAction = new QAction(QIcon(":/icons/debugwindow"), tr("&Debug window"), this);
     openRPCConsoleAction->setStatusTip(tr("Open debugging and diagnostic console"));
 
-    openChatroomAction = new QAction(QIcon(":/icons/peercoin"), tr("&Chatroom"), this);
-    openChatroomAction->setStatusTip(tr("Open https://peercoin.chat in a web browser."));
-
-    openForumAction = new QAction(QIcon(":/icons/peercoin"), tr("&Forum"), this);
-    openForumAction->setStatusTip(tr("Open https://talk.peercoin.net in a web browser."));
-
     connect(quitAction, SIGNAL(triggered()), qApp, SLOT(quit()));
     connect(aboutAction, SIGNAL(triggered()), this, SLOT(aboutClicked()));
     connect(aboutQtAction, SIGNAL(triggered()), qApp, SLOT(aboutQt()));
@@ -285,8 +279,6 @@ void BitcoinGUI::createActions()
     connect(changePassphraseAction, SIGNAL(triggered()), walletFrame, SLOT(changePassphrase()));
     connect(signMessageAction, SIGNAL(triggered()), this, SLOT(gotoSignMessageTab()));
     connect(verifyMessageAction, SIGNAL(triggered()), this, SLOT(gotoVerifyMessageTab()));
-    connect(openChatroomAction, SIGNAL(triggered()), this, SLOT(openChatroom()));
-    connect(openForumAction, SIGNAL(triggered()), this, SLOT(openForum()));
 }
 
 void BitcoinGUI::createMenuBar()
@@ -317,8 +309,6 @@ void BitcoinGUI::createMenuBar()
 
     QMenu *help = appMenuBar->addMenu(tr("&Help"));
     help->addAction(openRPCConsoleAction);
-    help->addAction(openChatroomAction);
-    help->addAction(openForumAction);
     help->addSeparator();
     help->addAction(aboutAction);
     help->addAction(aboutQtAction);
@@ -367,8 +357,6 @@ void BitcoinGUI::setClientModel(ClientModel *clientModel)
 
             toggleHideAction->setIcon(QIcon(":/icons/toolbar_testnet"));
             aboutAction->setIcon(QIcon(":/icons/toolbar_testnet"));
-            openChatroomAction->setIcon(QIcon(":/icons/toolbar_testnet"));
-            openForumAction->setIcon(QIcon(":/icons/toolbar_testnet"));
         }
 
         // Create system tray menu (or setup the dock menu) that late to prevent users from calling actions,
@@ -550,13 +538,6 @@ void BitcoinGUI::gotoVerifyMessageTab(QString addr)
     if (walletFrame) walletFrame->gotoVerifyMessageTab(addr);
 }
 
-void BitcoinGUI::openChatroom() {
-    QDesktopServices::openUrl(QUrl("https://peercoin.chat"));
-}
-
-void BitcoinGUI::openForum() {
-    QDesktopServices::openUrl(QUrl("https://talk.peercoin.net"));
-}
 
 void BitcoinGUI::setNumConnections(int count)
 {
