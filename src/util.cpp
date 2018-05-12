@@ -1,6 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
 // Copyright (c) 2011-2018 The Peercoin developers
+// Copyright (c) 2017-2018 The SchillingCoin developers 
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -1197,7 +1198,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "schillingcoind.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "peercoind.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }

@@ -1,6 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
 // Copyright (c) 2011-2018 The Peercoin developers
+// Copyright (c) 2017-2018 The SchillingCoin developers 
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -698,7 +699,7 @@ void StartRPCThreads()
     {
         unsigned char rand_pwd[32];
         RAND_bytes(rand_pwd, 32);
-        string strWhatAmI = "To use schillingcoind";
+        string strWhatAmI = "To use peercoind";
         if (mapArgs.count("-server"))
             strWhatAmI = strprintf(_("To use the %s option"), "\"-server\"");
         else if (mapArgs.count("-daemon"))

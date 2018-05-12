@@ -1,6 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
 // Copyright (c) 2011-2018 The Peercoin developers
+// Copyright (c) 2017-2018 The SchillingCoin developers 
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -167,7 +168,7 @@ std::string HelpMessage(HelpMessageMode hmm)
     string strUsage = _("Options:") + "\n" +
         "  -?                     " + _("This help message") + "\n" +
         "  -conf=<file>           " + _("Specify configuration file (default: peercoin.conf)") + "\n" +
-        "  -pid=<file>            " + _("Specify pid file (default: schillingcoind.pid)") + "\n" +
+        "  -pid=<file>            " + _("Specify pid file (default: peercoind.pid)") + "\n" +
         "  -gen                   " + _("Generate coins (default: 0)") + "\n" +
         "  -nominting             " + _("Disable minting of POS blocks") + "\n" +
         "  -datadir=<dir>         " + _("Specify data directory") + "\n" +

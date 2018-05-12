@@ -1,4 +1,5 @@
 // Copyright (c) 2012-2018 The Peercoin developers
+// Copyright (c) 2017-2018 The SchillingCoin developers 
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -30,16 +31,11 @@ const unsigned int nProtocolV06TestSwitchTime = 1508198400; // Tue 17 Oct 00:00:
 unsigned int nModifierInterval = MODIFIER_INTERVAL;
 
 // Hard checkpoints of stake modifiers to ensure they are deterministic
-static std::map<int, unsigned int> mapStakeModifierCheckpoints =
+/*static std::map<int, unsigned int> mapStakeModifierCheckpoints =
     boost::assign::map_list_of
     ( 0, 0x0e00670bu )
-    ( 19080, 0xad4e4d29u )
-    ( 30583, 0xdc7bf136u )
-    ( 99999, 0xf555cfd2u )
-    (219999, 0x91b7444du )
-    (336000, 0x6c3c8048u )
     ;
-
+*/
 // Whether the given coinstake is subject to new v0.3 protocol
 bool IsProtocolV03(unsigned int nTimeCoinStake)
 {
@@ -531,8 +527,10 @@ unsigned int GetStakeModifierChecksum(const CBlockIndex* pindex)
 // Check stake modifier hard checkpoints
 bool CheckStakeModifierCheckpoints(int nHeight, unsigned int nStakeModifierChecksum)
 {
-    if (fTestNet) return true; // Testnet has no checkpoints
+  /*  if (fTestNet) return true; // Testnet has no checkpoints
     if (mapStakeModifierCheckpoints.count(nHeight))
         return nStakeModifierChecksum == mapStakeModifierCheckpoints[nHeight];
+*/
     return true;
+	
 }
