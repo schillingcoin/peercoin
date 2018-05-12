@@ -1,6 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin Core developers
 // Copyright (c) 2011-2018 The Peercoin developers
+// Copyright (c) 2017-2018 The SchillingCoin developers 
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -1206,13 +1207,15 @@ void MapPort(bool)
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strMainNetDNSSeed[][2] = {
-    {"seedpeercoin", "seed.peercoin.net"},
-    {"seed", "seed.ppcoin.net"},
+    {"seedmiuAT", "dev.miu.at"},
+    {"explorerAT", "explorer.schillingcoin.com"},
+    {"seed1AT", "seed1.schillingcoin.com"},
+    {"seed2DE", "seed2.schillingcoin.com"}
     {NULL, NULL}
 };
 
 static const char *strTestNetDNSSeed[][2] = {
-    {"tseedpeercoin", "tseed.peercoin.net"},
+    {"tseedschillingcoin", "tdev.miu.at"},
     {NULL, NULL}
 };
 
@@ -1262,9 +1265,6 @@ void ThreadDNSAddressSeed()
 // Physical IP seeds: 32-bit IPv4 addresses: e.g. 178.33.22.32 = 0x201621b2
 unsigned int pnSeed[] =
 {
-    0x36a3b545, 0x3c1c26d8, 0x4031eb6d, 0x4d3463d1, 0x586a6854, 0x5da9ae65,
-    0x6deb7318, 0x9083fb63, 0x961bf618, 0xcabd2e4e, 0xcb766dd5, 0xdd514518,
-    0xdff010b8, 0xe9bb6044, 0xedb24a4c,
 };
 
 void DumpAddresses()
@@ -1528,8 +1528,8 @@ void static StartSync(const vector<CNode*> &vNodes) {
         // check preconditions for allowing a sync
         if (!pnode->fClient && !pnode->fOneShot &&
             !pnode->fDisconnect && pnode->fSuccessfullyConnected &&
-            (pnode->nStartingHeight > (nBestHeight - 144)) &&
-            (pnode->nVersion < NOBLKS_VERSION_START || pnode->nVersion >= NOBLKS_VERSION_END)) {
+            (pnode->nStartingHeight > (nBestHeight - 144))) {
+            //(pnode->nVersion < NOBLKS_VERSION_START || pnode->nVersion >= NOBLKS_VERSION_END)) {
             // if ok, compare node's score with the best so far
             double dScore = NodeSyncScore(pnode);
             if (pnodeNewSync == NULL || dScore > dBestScore) {
