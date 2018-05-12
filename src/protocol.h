@@ -1,5 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
+// Copyright (c) 2017-2018 The SchillingCoin developers 
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -15,15 +16,15 @@
 #include <string>
 #include "uint256.h"
 
-#define PPCOIN_PORT  9901
-#define RPC_PORT     9902
-#define TESTNET_PORT 9903
-#define TESTNET_RPC_PORT 9904
+#define PPCOIN_PORT  9976
+#define RPC_PORT     9977
+#define TESTNET_PORT 9978
+#define TESTNET_RPC_PORT 9979
 
 extern bool fTestNet;
 extern unsigned char pchMessageStart[4];
 
-void GetMessageStart(unsigned char pchMessageStart[], bool fPersistent = false);
+void GetMessageStart(unsigned char pchMessageStart[]);
 
 static inline unsigned short GetDefaultPort(const bool testnet = fTestNet)
 {
