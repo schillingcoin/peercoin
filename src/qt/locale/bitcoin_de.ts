@@ -1079,7 +1079,7 @@ Adresse: %4</translation>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start peercoin: click-to-pay handler</source>
-        <translation>&quot;peercoin: Klicken-zum-Bezahlen&quot;-Handler konnte nicht gestartet werden</translation>
+        <translation>&quot;schillingcoin: Klicken-zum-Bezahlen&quot;-Handler konnte nicht gestartet werden</translation>
     </message>
 </context>
 <context>
@@ -2227,7 +2227,7 @@ Adresse: %4</translation>
     <message>
         <location line="+24"/>
         <source>Specify configuration file (default: peercoin.conf)</source>
-        <translation>Konfigurationsdatei festlegen (Standard: peercoin.conf)</translation>
+        <translation>Konfigurationsdatei festlegen (Standard: schillingcoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2320,7 +2320,7 @@ for example: alertnotify=echo %%s | mail -s &quot;SchillingCoin Alert&quot; admi
         <translation>%s, Sie müssen den Wert rpcpasswort in dieser Konfigurationsdatei angeben:
 %s
 Es wird empfohlen das folgende Zufallspasswort zu verwenden:
-rpcuser=peercoinrpc
+rpcuser=schillingcoinrpc
 rpcpassword=%s
 (Sie müssen sich dieses Passwort nicht merken!)
 Der Benutzername und das Passwort dürfen NICHT identisch sein.
