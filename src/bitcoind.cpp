@@ -48,7 +48,7 @@ bool AppInit(int argc, char* argv[])
         if (mapArgs.count("-?") || mapArgs.count("--help"))
         {
             // First part of help message is specific to bitcoind / RPC client
-            std::string strUsage = _("Peercoin version") + " " + FormatFullVersion() + "\n\n" +
+            std::string strUsage = _("SchillingCoin version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
                   "  schillingcoind [options]                     " + "\n" +
                   "  schillingcoind [options] <command> [params]  " + _("Send command to -server or schillingcoind") + "\n" +
