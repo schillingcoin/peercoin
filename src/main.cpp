@@ -3263,9 +3263,9 @@ bool InitBlockIndex() {
     // Only add the genesis block if not reindexing (in which case we reuse the one already on disk)
     if (!fReindex) {
         // Genesis block
-	const char* pszTimestamp = "BBC 3-5-18 Chinese Nobel widow Liu Xia ready to die at home in protest";
+	const char* pszTimestamp = "SchillingCoin";
         CTransaction txNew;
-        txNew.nTime = 1525351524;
+        txNew.nTime = 1528726749;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CBigNum(9999) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
@@ -3275,9 +3275,9 @@ bool InitBlockIndex() {
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1525351624;
+        block.nTime    = 1528727751;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
-        block.nNonce   = 1698440604;
+        block.nNonce   = 907246021;
 
         if (fTestNet)
         {
@@ -3302,7 +3302,7 @@ bool InitBlockIndex() {
         printf("%s\n", hash.ToString().c_str());
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", block.hashMerkleRoot.ToString().c_str());
-        assert(block.hashMerkleRoot == uint256("0xfc4a92ce74ca5f50cd95ae36141f9f2bb225f3ce2adb7c7e1282f41d06138f82"));
+        assert(block.hashMerkleRoot == uint256("0x6d02524fc16bb2338c37989d52a93dfafdc924b7a6f470f19f1c3dbcfe8875b2"));
         block.print();
         
 
