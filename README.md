@@ -2,6 +2,11 @@
 SchillingCoin Official Development Repo
 ==================================
 
+Explorer 1: http://explorer.schillingcoin.com
+Explorer 2: http://explorer2.schillingcoin.com
+
+Windows Wallet: https://github.com/schillingcoin/schillingcoin/releases/download/v0.6.5/schillingcoin-qt-0.6.5.exe
+
 
 ### What is SchillingCoin?
 [SchillingCoin](https://schillingcoin.com) (abbreviated OES), is a [cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency) design introducing proof-of-stake consensus as a security model, with a combined proof-of-stake/proof-of-work minting system. SchillingCoin is based on [Peercoin](https://peercoin.net), while introducing many important innovations to cryptocurrency field including new security model, energy efficiency, better minting model and more adaptive response to rapid change in network computation power.
