@@ -3,7 +3,9 @@ SchillingCoin Official Development Repo
 ==================================
 
 Explorer 1: http://explorer.schillingcoin.com
+
 Explorer 2: http://explorer2.schillingcoin.com
+
 
 Windows Wallet: https://github.com/schillingcoin/schillingcoin/releases/download/v0.6.5/schillingcoin-qt-0.6.5.exe
 
