@@ -31,11 +31,16 @@ const unsigned int nProtocolV06TestSwitchTime = 1508198400; // Tue 17 Oct 00:00:
 unsigned int nModifierInterval = MODIFIER_INTERVAL;
 
 // Hard checkpoints of stake modifiers to ensure they are deterministic
-/*static std::map<int, unsigned int> mapStakeModifierCheckpoints =
+static std::map<int, unsigned int> mapStakeModifierCheckpoints =
     boost::assign::map_list_of
-    ( 0, 0x0e00670bu )
+    ( 0, 0xe00670b )
+    (  500, 0xa7d7f0c4 )
+    (  5000, 0x0297cda5 )  
+    (  10000, 0x42350d1e ) 
+    (  20000, 0x0df39dd2 ) 
+    (  23588, 0x9d7f945c )
     ;
-*/
+
 // Whether the given coinstake is subject to new v0.3 protocol
 bool IsProtocolV03(unsigned int nTimeCoinStake)
 {
@@ -524,13 +529,10 @@ unsigned int GetStakeModifierChecksum(const CBlockIndex* pindex)
     return hashChecksum.Get64();
 }
 
-// Check stake modifier hard checkpoints
 bool CheckStakeModifierCheckpoints(int nHeight, unsigned int nStakeModifierChecksum)
 {
-  /*  if (fTestNet) return true; // Testnet has no checkpoints
+    if (fTestNet) return true; // Testnet has no checkpoints
     if (mapStakeModifierCheckpoints.count(nHeight))
         return nStakeModifierChecksum == mapStakeModifierCheckpoints[nHeight];
-*/
     return true;
-	
 }
