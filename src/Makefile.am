@@ -179,12 +179,12 @@ AM_CPPFLAGS += $(BDB_CPPFLAGS)
 schillingcoind_LDADD += $(BDB_LIBS)
 
 # bitcoin-cli binary #
-peercoin_cli_LDADD = libschillingcoin_cli.a libschillingcoin_common.a $(BOOST_LIBS)
-peercoin_cli_SOURCES = bitcoin-cli.cpp
-peercoin_cli_LDFLAGS = $(AM_LDFLAGS)
+schillingcoin_cli_LDADD = libschillingcoin_cli.a libschillingcoin_common.a $(BOOST_LIBS)
+schillingcoin_cli_SOURCES = bitcoin-cli.cpp
+schillingcoin_cli_LDFLAGS = $(AM_LDFLAGS)
 
 if TARGET_WINDOWS
-peercoin_cli_SOURCES += bitcoin-cli-res.rc
+schillingcoin_cli_SOURCES += bitcoin-cli-res.rc
 endif
 
 CLEANFILES = leveldb/libleveldb.a leveldb/libmemenv.a *.gcda *.gcno
