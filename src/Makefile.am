@@ -41,7 +41,7 @@ if BUILD_BITCOIND
 endif
 
 if BUILD_BITCOIN_CLI
-  bin_PROGRAMS += peercoin-cli
+  bin_PROGRAMS += schillingcoin-cli
 endif
 
 .PHONY: FORCE

@@ -32,9 +32,9 @@ static bool AppInitRPC(int argc, char* argv[])
         // First part of help message is specific to RPC client
         std::string strUsage = _("SchillingCoin RPC client version") + " " + FormatFullVersion() + "\n\n" +
             _("Usage:") + "\n" +
-              "  peercoin-cli [options] <command> [params]  " + _("Send command to Peercoin server") + "\n" +
-              "  peercoin-cli [options] help                " + _("List commands") + "\n" +
-              "  peercoin-cli [options] help <command>      " + _("Get help for a command") + "\n";
+              "  schillingcoin-cli [options] <command> [params]  " + _("Send command to Peercoin server") + "\n" +
+              "  schillingcoin-cli [options] help                " + _("List commands") + "\n" +
+              "  schillingcoin-cli [options] help <command>      " + _("Get help for a command") + "\n";
 
         strUsage += "\n" + HelpMessageCli(true);
 
