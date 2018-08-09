@@ -1207,16 +1207,16 @@ void MapPort(bool)
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strMainNetDNSSeed[][2] = {
-	{"seed1OES" 	, "seed1.schillingcoin.com"},
- 	{"seed2OES"	, "seed2.schillingcoin.com"}, 
-	{"explorerOES"	, "explorer.schillingcoin.com"},
-	{"pool1OES"	, "pool.schillingcoin.com"}, 
-	{"randomSeed1"	, "dev.miu.at"},	
+	{"seed1" 	, "seed1.schillingcoin.com"},
+ 	{"seed2"	, "seed2.schillingcoin.com"}, 
+	{"seed3"	, "seed3.schillingcoin.com"},
+	{"seed4"	, "seed4.schillingcoin.com"}, 
+	{"seed5"	, "seed5.schillingcoin.com"},	
 	{NULL, NULL}
 };
 
 static const char *strTestNetDNSSeed[][2] = {
-    {"tseedschillingcoin", "tdev.miu.at"},
+    {"tseedschillingcoin", "testnet-seed1.schillingcoin.at"},
     {NULL, NULL}
 };
 
