@@ -13,7 +13,8 @@ i686-w64-mingw32.static-qmake-qt5 \
         BDB_LIB_PATH=$MXE_LIB_PATH \
         MINIUPNPC_INCLUDE_PATH=$MXE_INCLUDE_PATH \
         MINIUPNPC_LIB_PATH=$MXE_LIB_PATH \
-        QMAKE_LRELEASE=/opt/mxe/usr/i686-w64-mingw32.static/qt5/bin/lrelease bitcoin-qt.pro
+        QMAKE_LRELEASE=/opt/mxe/usr/i686-w64-mingw32.static/qt5/bin/lrelease bitcoin-qt.pro \
+	USE_BUILD_INFO=1 
 
 make -f Makefile.Release
 
